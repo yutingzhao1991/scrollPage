@@ -1,0 +1,35 @@
+
+
+.scroll-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-container .scroll-box {
+    position: relative;
+    overflow: hidden;
+    -webkit-transition:1s ease margin-top;
+    -moz-transition:1s ease margin-top;
+}
+
+.scroll-container .scroll-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-container .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.scroll-container .scroll-up {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -50px;
+}
+
